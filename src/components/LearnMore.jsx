@@ -1,9 +1,9 @@
 import { Button } from "./utility/Button"
 
 export const LearnMore = () => {
-    return <div className="grid grid-cols-2 border border-black">
+    return <div className="grid md:grid-cols-2 border border-black">
         <div className="h-auto w-auto m-6">
-            <div className="text-8xl  pr-24">
+            <div className="text-6xl pr-12 md:text-8xl  md:pr-24">
                 Learn more about us. Or Join us.
             </div>
         </div>
@@ -15,7 +15,7 @@ export const LearnMore = () => {
                 <div className="ml-8 mt-2">
                     Visit our company blog for the latest news, product updates, and tips and tricks.
                 </div>
-                <div className="mt-28 mb-12">
+                <div className="mt-12 md:mt-28 mb-12">
                 <Button text="Read our blog" css="text-green-600 border-green-600 bg-white"/>
                 </div>
             </div>
@@ -26,7 +26,7 @@ export const LearnMore = () => {
                 <div className="ml-8 mt-2">
                     Our team is home to engineers, journalists, artists, and creatives of all stripes.
                 </div>
-                <div className="mt-28 mb-12">
+                <div className="mt-12 md:mt-28 mb-12">
                 <Button text="View open positions" css="text-green-600 border-green-600 bg-white" />
                 </div>
             </div>

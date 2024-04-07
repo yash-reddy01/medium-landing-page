@@ -4,7 +4,7 @@ import Logo from "../assets/medium-logo.svg";
 export const Navbar = () => {
   
   return (
-    <div className="border border-black border-t-0 fixed w-full bg-white top-0 z-10">
+    <div className="border border-black border-t-0 w-screen fixed bg-white top-0 z-10 ">
       <div className="navbar flex justify-between items-center mx-4 md:mx-8 py-4">
         <div className="md:w-1/4">
           <a href="#">
