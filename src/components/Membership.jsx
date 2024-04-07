@@ -6,7 +6,7 @@ export const Membership = () => {
     return <div className="bg-light-green w-auto">
         <div className="flex flex-row justify-center items-center md:mx-64">
             <div className="mb-12 mt-16">
-                <div className="text-black text-5xl md:text-7xl text-center font-thicker mb-8 md:px-24">
+                <div className="text-black text-5xl md:text-7xl text-center font-thicker mb-8 md:px-24 font-serif">
                     <p>Get more with membership.</p>
                 </div>
                 <div className="text-black mx-16 md:mx-48 text-sm text-center">
@@ -19,20 +19,20 @@ export const Membership = () => {
         </div>
         <div className="border border-l-0 border-t-0 border-r-0 border-black grid md:grid-cols-2">
             <div className="text-black w-auto h-auto  border border-l-0 border-b-0 border-black px-5 py-4 ">
-                <div className="text-5xl">
+                <div className="text-4xl font-serif font-thin">
                     <p className="">Read as much as you want.</p>
                 </div>
                 <div className="my-8">
                     <img src={leftImage} alt="" height={250} width={250}/>
                 </div>
-                <div className="mb-4">
+                <div className="mb-4 ">
                     <p>
                         Enjoy unlimited access to every story across all of your devices.
                     </p>
                 </div>
             </div>
             <div className="h-auto w-auto text-black border border-black border-l-0 border-b-0 px-5 py-4">
-                <div className="text-5xl">
+                <div className="text-4xl font-serif font-thin">
                     <p>Reward quality content.</p>
                 </div>
                 <div className="my-8 mb-7">

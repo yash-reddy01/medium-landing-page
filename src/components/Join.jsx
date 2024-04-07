@@ -7,7 +7,7 @@ export const Join = () => {
             <img src={cubeImage} height={500} width={500} />
         </div>
         <div className="border border-black border-t-0 border-b-0">
-            <div className="text-5xl md:text-7xl lg:text-8xl ml-8 mt-8 pr-28 md:pr-20 mb-12 md:mb-24">
+            <div className="text-5xl md:text-6xl lg:text-7xl ml-8 mt-8 pr-28 md:pr-20 mb-12 md:mb-32 font-serif">
                 Read, write, and expand your world.
             </div>
             <div className="ml-2 mb-8 md:mb-4">

@@ -5,7 +5,7 @@ export const NetworkSection = () => {
   return (
     <div className="bg-skin">
       <div className="flex flex-col justify-center items-center px-4 py-8 md:px-16 md:mx-16 md:py-8 lg:mx-48 xl:px-48">
-        <div className="text-5xl md:text-7xl text-center font-medium">
+        <div className="text-5xl md:text-7xl text-center  font-serif font-thinner">
           A living network of curious minds.
         </div>
         <div className="py-4 px-16 md:font-light tracking-normal ">

@@ -13,7 +13,7 @@ export default {
       }, 
       screens: {
         'ipad': '768px'
-      }
+      },
     },
   },
   plugins: [],

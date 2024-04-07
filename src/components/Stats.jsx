@@ -5,7 +5,7 @@ export const Stats = () => {
   return (
     <div className="bg-black">
       <div className="border-b border-white grid grid-cols-1 md:grid-cols-2 ">
-        <div className="text-white text-5xl w-auto h-auto border-b md:text-8xl font-thicker md:border-r border-white px-5 py-4">
+        <div className="text-white text-5xl w-auto h-auto border-b md:text-7xl font-thicker md:border-r border-white px-5 py-4 font-serif font-thin">
           <p>
             Over 100 <br />
             million <br />
@@ -16,25 +16,25 @@ export const Stats = () => {
           <div className="m-8 md:m-8">
             <img src={ProfileImage} alt="" className="w-48 md:w-auto" />
           </div>
-          <div className="text-white text-left px-4 md:mx-12 md:pr-24 lg:pr-36">
-            <p>
+          <div className="text-white text-left px-4 md:mx-12 md:pr-24 lg:pr-36 font-thin">
+            <p> 
               "Medium is a great place to read and learn from a wide range of
               authors. It's not muddied up by ads. It feels like one of the few
               pure places to go online."
             </p>
           </div>
-          <div className="mx-4 md:mx-12 text-white my-4 md:my-12">
+          <div className="mx-4 md:mx-12 text-white my-4 md:my-12 font-thin">
             <p>Jackie Colburn</p>
           </div>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center px-4 md:mx-24 mt-8 md:mt-16 md:px-24 lg:mx-36">
         <div className="mb-8 md:mb-12">
-          <div className="text-white text-4xl md:text-6xl lg:text-7xl text-center font-thicker mb-4 md:mb-8">
+          <div className="text-white text-4xl md:text-6xl lg:text-7xl text-center font-thicker mb-4 md:mb-8 font-serif ">
             <p>Create the space for your thinking to take off.</p>
           </div>
           <div className="text-white text-sm px-4 md:mx-12">
-            <p className="lg:w-auto xl:px-32">
+            <p className="lg:w-auto xl:px-32 font-thin">
               A blank page is also a door. At Medium you can walk through it.
               It's easy and free to share your thinking on any topic, connect
               with an audience, express yourself with a range of publishing

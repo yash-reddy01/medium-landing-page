@@ -4,7 +4,7 @@ export const DownloadApp = () => {
   return (
     <div className="bg-lightest-green grid grid-cols-1 md:grid-cols-2 border-x border-black">
       <div className="h-auto w-auto m-4 md:m-8">
-        <div className="text-5xl text-center md:text-8xl md:text-left px-4 md:pe-16">
+        <div className="text-5xl text-center md:text-7xl md:text-left px-4 md:pe-8 font-serif ">
           <p>Take Medium with you.</p>
         </div>
         <div className="my-4 px-4 md:pr-12">

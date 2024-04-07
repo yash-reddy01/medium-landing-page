@@ -1,6 +1,6 @@
 export const Footer = () => {
     return <div className="flex flex-col justify-center items-center pb-4">
-        <div className="text-4xl font-bold m-12">
+        <div className="text-4xl font-semibold m-12 font-serif">
             Medium
         </div>
         <div className="underline text-sm">

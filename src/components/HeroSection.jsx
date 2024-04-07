@@ -3,8 +3,8 @@ import Image from "../assets/hero-section.svg";
 export const HeroSection = () => {
   return (
     <div className="border border-t-0 border-black ">
-      <div className="text-6xl p-10 text-center mr-20 mt-20 mb-20 pl-24">
-        Every idea needs a Medium.
+      <div className="text-5xl md:text-7xl p-10 text-center mr-20 mt-20 mb-20 pl-24 font-serif ">
+        Every idea needs a <span className="font-bold ">Medium.</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-b-0 border-black ">
